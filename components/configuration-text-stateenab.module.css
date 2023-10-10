@@ -1,0 +1,24 @@
+.labelText {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.configurationtextStateenab,
+.stateLayer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer {
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.configurationtextStateenab {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--m3-label-large-size);
+  color: var(--m3-sys-light-primary);
+  font-family: var(--m3-label-large);
+}

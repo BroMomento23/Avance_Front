@@ -1,0 +1,26 @@
+.icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.stateLayer {
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.configurationstandardState,
+.container,
+.stateLayer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: row;
+}
+.configurationstandardState {
+  width: 48px;
+  height: 48px;
+  flex-direction: column;
+}

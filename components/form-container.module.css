@@ -1,0 +1,42 @@
+.icon {
+  position: absolute;
+  height: 50%;
+  width: 75%;
+  top: 25%;
+  right: 12.5%;
+  bottom: 25%;
+  left: 12.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iconsmenu24px {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.stateLayer {
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container,
+.leadingIcon,
+.stateLayer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-direction: row;
+}
+.leadingIcon {
+  width: 48px;
+  height: 48px;
+  flex-direction: column;
+}

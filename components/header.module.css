@@ -1,0 +1,57 @@
+.headline {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: inherit;
+  display: none;
+}
+.iconsaccountCircleFilled24 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.container,
+.stateLayer,
+.trailingIcon {
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.trailingIcon {
+  width: 48px;
+  height: 48px;
+  display: none;
+  flex-direction: column;
+}
+.topAppBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-lavender);
+  width: 1440px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  text-align: center;
+  font-size: var(--m3-title-large-size);
+  color: var(--m3-sys-light-on-surface);
+  font-family: var(--m3-label-large);
+}
